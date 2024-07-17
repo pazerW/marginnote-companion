@@ -41,7 +41,7 @@
     "codemirror": "^5.63.3",
     "cross-env": "^7.0.3",
     "cz-conventional-changelog": "^3.3.0",
-    "esbuild": "^0.13.9",
+    "esbuild": "^0.22.0",
     "esbuild-plugin-less": "^1.1.5",
     "escape-string-regexp": "^5.0.0",
     "eslint": "^8.1.0",
@@ -75,8 +75,9 @@
     "ts-jest": "^27.0.7",
     "ts-node": "^10.4.0",
     "tslib": "^2.3.1",
-    "typescript": "^4.4.4",
-    "url-parse": "^1.5.3"
+    "typescript": "^4.9.5",
+    "url-parse": "^1.5.3",
+    "webpack-cli": "^5.1.4"
   },
   "release-it": {
     "hooks": {
@@ -128,5 +129,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "uuid": "^10.0.0"
   }
 }

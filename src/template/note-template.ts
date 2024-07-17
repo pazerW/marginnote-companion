@@ -111,7 +111,7 @@ export default class NoteTemplate extends Template<"note"> {
     return comments.map<CommentRec>((c) => {
       switch (c.type) {
         case "TextNote": // LinkedNote (mnUrl in c.text) or comment
-          return c.text?.startsWith("marginnote3app")
+          return c.text?.startsWith("marginnote4app")
             ? new Comment(Link.getInst(c.text), c.noteid)
             : new Comment(this.getText(c.text), c.noteid);
         case "HtmlNote": // if with noteid: from merged note

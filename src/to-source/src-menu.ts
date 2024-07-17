@@ -36,7 +36,7 @@ const getSrcMenu = (sources: unknown, app: App): Menu | null => {
         menu.addItem((item) => {
           item
             .setIcon(
-              url.startsWith("marginnote3app") ? "mn-fill-color" : "link",
+              url.startsWith("marginnote4app") ? "mn-fill-color" : "link",
             )
             .setTitle(docName)
             .onClick(() => window.open(url));

@@ -38,7 +38,7 @@ const isProd = process.env.BUILD === "production";
     await build({
       entryPoints: ["src/mn-main.ts"],
       bundle: true,
-      watch: !isProd,
+      // watch: !isProd,
       platform: "browser",
       external: ["obsidian", "electron"],
       format: "cjs",

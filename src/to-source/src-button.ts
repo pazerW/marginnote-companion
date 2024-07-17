@@ -15,7 +15,7 @@ const addButton = (app: App) => (leaf: WorkspaceLeaf) => {
   if (
     leaf.view instanceof MarkdownView &&
     leaf.view.containerEl.querySelector(
-      `a.view-action[aria-label="${label}"]`,
+      `[aria-label="${label}"]`,
     ) === null
   ) {
     let view = leaf.view;

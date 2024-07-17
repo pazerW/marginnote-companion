@@ -10,7 +10,6 @@ const srcButton =
   (el: HTMLElement, ctx: MarkdownPostProcessorContext): void => {
     const heading = el.querySelector("h1");
     if (!heading || !ctx.frontmatter?.sources) return;
-
     const button = createDiv(
       {
         cls: "heading-src",

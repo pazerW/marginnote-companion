@@ -74,6 +74,6 @@ export default class Link {
     return "\n".repeat(count >= 2 ? 0 : 2 - count) + refSource + "\n";
   }
   static getUrl(id: string, linkTo: "notebook" | "note" = "note") {
-    return `marginnote3app://${linkTo}/${id}`;
+    return `marginnote4app://${linkTo}/${id}`;
   }
 }

@@ -49,7 +49,7 @@ export default class AddNewVideo extends FuzzySuggestModal<TFile> {
       });
   }
   emptyStateText =
-    "The imported video note from MarginNote 3 has not been mapped to obsidian, Enter the designated file name / URL to continue";
+    "The imported video note from MarginNote 4 has not been mapped to obsidian, Enter the designated file name / URL to continue";
 
   resolve: ((value: promiseVal | PromiseLike<promiseVal>) => void) | null =
     null;

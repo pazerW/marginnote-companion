@@ -52,7 +52,7 @@ export default class Link {
     return `<${this.Url}>`;
   }
   get Inline(): string {
-    return this.linktext ? `[${this.linktext}](${this.Url})`:`[MarginNote](${this.Url})`;
+    return this.linktext ? `[${this.linktext}](${this.Url})`:`[ ](${this.Url})`;
      
   }
   get Ref(): string {
